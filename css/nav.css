@@ -1,0 +1,45 @@
+.slidernav
+{
+	background-color: #ff4d4d;
+	height: 100%;
+	transition: 0.6s ease;
+	position: fixed;
+	overflow: hidden;
+	width: 0%;
+	top:0px;
+	left: 0px;
+}
+.slidernav .profileimg
+{
+	width: 60%;
+	height: 25%;
+	border-radius: 50%;	
+	padding: 30px;
+}
+.slidernav .link
+{
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 8px 8px 32px;
+	transition: 0.6s ease;
+}
+.nav
+{
+	width: 100%;
+	padding: 5px;
+}
+.nav .icon
+{
+	font-size: 20px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	color: white;
+}
+.nav .name
+{
+	color:white;
+	font-size: 20px;
+}

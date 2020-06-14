@@ -1,0 +1,99 @@
+.logo
+{
+	padding: 5px;
+	width: 100px;
+	display: block;	
+}
+.logoname
+{
+	font-family: 'Sofia'; 
+	font-size: 30px; 
+	padding: 5px; 
+	display: block;	
+}
+#login,#logup,#uploadimage,#changepassword,#addprofile,#editprofile
+{
+	width:30%;
+	background-color: #ff4d4d;
+	margin: 0px auto;
+	padding: 29px;
+}
+.input
+{
+	width: 100%;
+	outline: none;
+	padding: 5px;
+	border:none;
+	color: #0055ff;
+	font-size: 15px;
+}
+button
+{
+	font-size: 20px;
+	color:white;
+	border: none;
+	outline:none;
+	padding: 14px 16px;
+	width:17%;
+	background-color: #ff4d4d;
+	text-align: center;
+	transition: 0.6s ease;
+}
+label
+{
+	color: white;
+	padding:10px 10px 10px 0px;
+	font-size: 18px;
+}
+.form
+{
+	font-size: 15px;
+	padding: 10px;
+	margin: 0px;
+	margin-top:25px;
+	border:none;
+	width:20%;
+	background-color: #0055ff;
+}
+.form:hover
+{
+	transition: 0.6s ease;
+	background-color: #80aaff;
+}
+@media screen and (max-width: 1024px)
+{
+	#login,#logup,#uploadimage,#changepassword,#addprofile,#editprofile
+	{
+		width:43%;
+		padding: 3.5%;
+	}
+	button
+	{
+		width:24.7%;
+		padding: 10px;
+	}
+	.form
+	{
+		padding: 10px;
+		width:30%;
+	}
+
+}
+@media screen and (max-width: 500px)
+{
+	#login,#logup,#uploadimage,#changepassword,#addprofile,#editprofile
+	{
+		width: 80%;
+		padding: 10%;
+	}
+	button
+	{
+		width:49.34%;
+		padding:10px;	
+	}
+	.form
+	{
+		padding: 10px;
+		width:30%;
+	}
+}
